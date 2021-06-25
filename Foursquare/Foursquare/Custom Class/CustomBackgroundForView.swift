@@ -1,9 +1,11 @@
 //
-//  File.swift
+//  CustomBackgroundForView.swift
 //  Foursquare
 //
 //  Created by Sushanth S on 25/06/21.
 //
+
+import Foundation
 import UIKit
 
 class CustomBackgroundForView: UIView {

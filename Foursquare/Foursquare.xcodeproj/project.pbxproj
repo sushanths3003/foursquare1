@@ -15,7 +15,7 @@
 		AFF4A87B26863D1E0018111B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF4A87926863D1E0018111B /* LaunchScreen.storyboard */; };
 		AFF4A88526863F6A0018111B /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A88426863F6A0018111B /* HomePageViewController.swift */; };
 		AFF4A888268641430018111B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A887268641430018111B /* ForgotPasswordViewController.swift */; };
-		AFF4A88C2686421C0018111B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A88B2686421C0018111B /* File.swift */; };
+		AFF4A890268643AA0018111B /* CustomBackgroundForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A88F268643AA0018111B /* CustomBackgroundForView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		AFF4A87C26863D1E0018111B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFF4A88426863F6A0018111B /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		AFF4A887268641430018111B /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
-		AFF4A88B2686421C0018111B /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		AFF4A88F268643AA0018111B /* CustomBackgroundForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundForView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		AFF4A88A268642050018111B /* Custom Class */ = {
 			isa = PBXGroup;
 			children = (
-				AFF4A88B2686421C0018111B /* File.swift */,
+				AFF4A88F268643AA0018111B /* CustomBackgroundForView.swift */,
 			);
 			path = "Custom Class";
 			sourceTree = "<group>";
@@ -155,9 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFF4A88526863F6A0018111B /* HomePageViewController.swift in Sources */,
-				AFF4A88C2686421C0018111B /* File.swift in Sources */,
 				AFF4A888268641430018111B /* ForgotPasswordViewController.swift in Sources */,
 				AFF4A87326863D1C0018111B /* ViewController.swift in Sources */,
+				AFF4A890268643AA0018111B /* CustomBackgroundForView.swift in Sources */,
 				AFF4A86F26863D1C0018111B /* AppDelegate.swift in Sources */,
 				AFF4A87126863D1C0018111B /* SceneDelegate.swift in Sources */,
 			);
