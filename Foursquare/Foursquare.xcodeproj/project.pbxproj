@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6A3706802686EEED00B494B2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A37067F2686EEED00B494B2 /* LoginViewController.swift */; };
+		AF8D08572687014F00C7D1EA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D08562687014F00C7D1EA /* CustomButton.swift */; };
+		AF8D085B2687021800C7D1EA /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D085A2687021800C7D1EA /* UIColor+Extension.swift */; };
 		AFF4A86F26863D1C0018111B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A86E26863D1C0018111B /* AppDelegate.swift */; };
 		AFF4A87126863D1C0018111B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A87026863D1C0018111B /* SceneDelegate.swift */; };
 		AFF4A87326863D1C0018111B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A87226863D1C0018111B /* ViewController.swift */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		6A37067F2686EEED00B494B2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF8D08562687014F00C7D1EA /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		AF8D085A2687021800C7D1EA /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		AFF4A86B26863D1C0018111B /* Foursquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foursquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF4A86E26863D1C0018111B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFF4A87026863D1C0018111B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF8D0859268701F000C7D1EA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AF8D085A2687021800C7D1EA /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		AFF4A86226863D1C0018111B = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +76,7 @@
 		AFF4A86D26863D1C0018111B /* Foursquare */ = {
 			isa = PBXGroup;
 			children = (
+				AF8D0859268701F000C7D1EA /* Extension */,
 				AFF4A88A268642050018111B /* Custom Class */,
 				AFF4A86E26863D1C0018111B /* AppDelegate.swift */,
 				AFF4A87026863D1C0018111B /* SceneDelegate.swift */,
@@ -83,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				AFF4A88F268643AA0018111B /* CustomBackgroundForView.swift */,
+				AF8D08562687014F00C7D1EA /* CustomButton.swift */,
 			);
 			path = "Custom Class";
 			sourceTree = "<group>";
@@ -160,7 +174,9 @@
 				6A3706802686EEED00B494B2 /* LoginViewController.swift in Sources */,
 				AFF4A88526863F6A0018111B /* HomePageViewController.swift in Sources */,
 				AFF4A888268641430018111B /* ForgotPasswordViewController.swift in Sources */,
+				AF8D085B2687021800C7D1EA /* UIColor+Extension.swift in Sources */,
 				AFF4A87326863D1C0018111B /* ViewController.swift in Sources */,
+				AF8D08572687014F00C7D1EA /* CustomButton.swift in Sources */,
 				AFF4A890268643AA0018111B /* CustomBackgroundForView.swift in Sources */,
 				AFF4A86F26863D1C0018111B /* AppDelegate.swift in Sources */,
 				AFF4A87126863D1C0018111B /* SceneDelegate.swift in Sources */,
@@ -312,6 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Foursquare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Foursquare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
