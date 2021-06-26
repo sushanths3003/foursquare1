@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A3706802686EEED00B494B2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A37067F2686EEED00B494B2 /* LoginViewController.swift */; };
 		AFF4A86F26863D1C0018111B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A86E26863D1C0018111B /* AppDelegate.swift */; };
 		AFF4A87126863D1C0018111B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A87026863D1C0018111B /* SceneDelegate.swift */; };
 		AFF4A87326863D1C0018111B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A87226863D1C0018111B /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A37067F2686EEED00B494B2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AFF4A86B26863D1C0018111B /* Foursquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foursquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF4A86E26863D1C0018111B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFF4A87026863D1C0018111B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				AFF4A86E26863D1C0018111B /* AppDelegate.swift */,
 				AFF4A87026863D1C0018111B /* SceneDelegate.swift */,
 				AFF4A87226863D1C0018111B /* ViewController.swift */,
+				6A37067F2686EEED00B494B2 /* LoginViewController.swift */,
 				AFF4A87426863D1C0018111B /* Main.storyboard */,
 				AFF4A87726863D1E0018111B /* Assets.xcassets */,
 				AFF4A87926863D1E0018111B /* LaunchScreen.storyboard */,
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3706802686EEED00B494B2 /* LoginViewController.swift in Sources */,
 				AFF4A88526863F6A0018111B /* HomePageViewController.swift in Sources */,
 				AFF4A888268641430018111B /* ForgotPasswordViewController.swift in Sources */,
 				AFF4A87326863D1C0018111B /* ViewController.swift in Sources */,
