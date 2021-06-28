@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6A3706802686EEED00B494B2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A37067F2686EEED00B494B2 /* LoginViewController.swift */; };
+		AF6D2419268A1BBB00103807 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6D2418268A1BBB00103807 /* Constants.swift */; };
+		AF6D241C268A328C00103807 /* CustomButtonForCollectionViewOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6D241B268A328C00103807 /* CustomButtonForCollectionViewOptions.swift */; };
+		AF6D241F268A3C3800103807 /* NearYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6D241E268A3C3800103807 /* NearYouViewController.swift */; };
+		AF6D2422268A3C4900103807 /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6D2421268A3C4900103807 /* PopularViewController.swift */; };
+		AF6D2425268A4B7300103807 /* NearYouTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6D2424268A4B7300103807 /* NearYouTableViewCell.swift */; };
+		AF86E3842689911500FFE450 /* HomePageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86E3832689911500FFE450 /* HomePageCollectionViewCell.swift */; };
+		AF86E3872689913400FFE450 /* HomePageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86E3862689913400FFE450 /* HomePageCollectionViewController.swift */; };
+		AF86E38B2689973700FFE450 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86E38A2689973700FFE450 /* HomePageViewController.swift */; };
 		AF8D08572687014F00C7D1EA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D08562687014F00C7D1EA /* CustomButton.swift */; };
 		AF8D085B2687021800C7D1EA /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D085A2687021800C7D1EA /* UIColor+Extension.swift */; };
 		AFF4A86F26863D1C0018111B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A86E26863D1C0018111B /* AppDelegate.swift */; };
@@ -16,13 +24,20 @@
 		AFF4A87626863D1C0018111B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF4A87426863D1C0018111B /* Main.storyboard */; };
 		AFF4A87826863D1E0018111B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF4A87726863D1E0018111B /* Assets.xcassets */; };
 		AFF4A87B26863D1E0018111B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF4A87926863D1E0018111B /* LaunchScreen.storyboard */; };
-		AFF4A88526863F6A0018111B /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A88426863F6A0018111B /* HomePageViewController.swift */; };
 		AFF4A888268641430018111B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A887268641430018111B /* ForgotPasswordViewController.swift */; };
 		AFF4A890268643AA0018111B /* CustomBackgroundForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A88F268643AA0018111B /* CustomBackgroundForView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A37067F2686EEED00B494B2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF6D2418268A1BBB00103807 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AF6D241B268A328C00103807 /* CustomButtonForCollectionViewOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonForCollectionViewOptions.swift; sourceTree = "<group>"; };
+		AF6D241E268A3C3800103807 /* NearYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouViewController.swift; sourceTree = "<group>"; };
+		AF6D2421268A3C4900103807 /* PopularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		AF6D2424268A4B7300103807 /* NearYouTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouTableViewCell.swift; sourceTree = "<group>"; };
+		AF86E3832689911500FFE450 /* HomePageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF86E3862689913400FFE450 /* HomePageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCollectionViewController.swift; sourceTree = "<group>"; };
+		AF86E38A2689973700FFE450 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		AF8D08562687014F00C7D1EA /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		AF8D085A2687021800C7D1EA /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		AFF4A86B26863D1C0018111B /* Foursquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foursquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,7 +48,6 @@
 		AFF4A87726863D1E0018111B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFF4A87A26863D1E0018111B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFF4A87C26863D1E0018111B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFF4A88426863F6A0018111B /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		AFF4A887268641430018111B /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		AFF4A88F268643AA0018111B /* CustomBackgroundForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundForView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +63,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF86E37D268990CA00FFE450 /* Home page */ = {
+			isa = PBXGroup;
+			children = (
+				AF86E3832689911500FFE450 /* HomePageCollectionViewCell.swift */,
+				AF86E3862689913400FFE450 /* HomePageCollectionViewController.swift */,
+				AF86E38A2689973700FFE450 /* HomePageViewController.swift */,
+				AF6D241E268A3C3800103807 /* NearYouViewController.swift */,
+				AF6D2421268A3C4900103807 /* PopularViewController.swift */,
+				AF6D2424268A4B7300103807 /* NearYouTableViewCell.swift */,
+			);
+			path = "Home page";
+			sourceTree = "<group>";
+		};
 		AF8D0859268701F000C7D1EA /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +103,7 @@
 		AFF4A86D26863D1C0018111B /* Foursquare */ = {
 			isa = PBXGroup;
 			children = (
+				AF86E37D268990CA00FFE450 /* Home page */,
 				AF8D0859268701F000C7D1EA /* Extension */,
 				AFF4A88A268642050018111B /* Custom Class */,
 				AFF4A86E26863D1C0018111B /* AppDelegate.swift */,
@@ -86,8 +114,8 @@
 				AFF4A87726863D1E0018111B /* Assets.xcassets */,
 				AFF4A87926863D1E0018111B /* LaunchScreen.storyboard */,
 				AFF4A87C26863D1E0018111B /* Info.plist */,
-				AFF4A88426863F6A0018111B /* HomePageViewController.swift */,
 				AFF4A887268641430018111B /* ForgotPasswordViewController.swift */,
+				AF6D2418268A1BBB00103807 /* Constants.swift */,
 			);
 			path = Foursquare;
 			sourceTree = "<group>";
@@ -97,6 +125,7 @@
 			children = (
 				AFF4A88F268643AA0018111B /* CustomBackgroundForView.swift */,
 				AF8D08562687014F00C7D1EA /* CustomButton.swift */,
+				AF6D241B268A328C00103807 /* CustomButtonForCollectionViewOptions.swift */,
 			);
 			path = "Custom Class";
 			sourceTree = "<group>";
@@ -172,14 +201,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A3706802686EEED00B494B2 /* LoginViewController.swift in Sources */,
-				AFF4A88526863F6A0018111B /* HomePageViewController.swift in Sources */,
 				AFF4A888268641430018111B /* ForgotPasswordViewController.swift in Sources */,
 				AF8D085B2687021800C7D1EA /* UIColor+Extension.swift in Sources */,
+				AF86E3872689913400FFE450 /* HomePageCollectionViewController.swift in Sources */,
+				AF6D241F268A3C3800103807 /* NearYouViewController.swift in Sources */,
 				AFF4A87326863D1C0018111B /* ViewController.swift in Sources */,
+				AF6D2422268A3C4900103807 /* PopularViewController.swift in Sources */,
 				AF8D08572687014F00C7D1EA /* CustomButton.swift in Sources */,
+				AF6D241C268A328C00103807 /* CustomButtonForCollectionViewOptions.swift in Sources */,
 				AFF4A890268643AA0018111B /* CustomBackgroundForView.swift in Sources */,
+				AF86E38B2689973700FFE450 /* HomePageViewController.swift in Sources */,
+				AF6D2425268A4B7300103807 /* NearYouTableViewCell.swift in Sources */,
 				AFF4A86F26863D1C0018111B /* AppDelegate.swift in Sources */,
+				AF86E3842689911500FFE450 /* HomePageCollectionViewCell.swift in Sources */,
 				AFF4A87126863D1C0018111B /* SceneDelegate.swift in Sources */,
+				AF6D2419268A1BBB00103807 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

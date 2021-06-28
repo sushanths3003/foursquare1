@@ -1,13 +1,13 @@
 //
-//  HomePageViewController.swift
+//  PopularViewController.swift
 //  Foursquare
 //
-//  Created by Sushanth S on 25/06/21.
+//  Created by Sushanth S on 28/06/21.
 //
 
 import UIKit
 
-class HomePageViewController: UIViewController {
+class PopularViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

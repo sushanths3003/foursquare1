@@ -20,7 +20,17 @@ extension UIColor {
     }
     
     static func boarderColorForButton() -> UIColor {
+        
         return .white
+    }
+    
+    static func colorForHighlightedLabel() -> UIColor {
+        
+        return .white
+    }
+    static func colorForNormalLabel() -> UIColor {
+        
+        return UIColor(red: 135 / 255, green: 121 / 255, blue: 127 / 255, alpha: 1)
     }
     
     
