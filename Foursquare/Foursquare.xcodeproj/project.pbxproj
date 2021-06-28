@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		6A3706802686EEED00B494B2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A37067F2686EEED00B494B2 /* LoginViewController.swift */; };
+		6A6864FA268A1702002CAAF4 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6864F9268A1702002CAAF4 /* UIViewController+Extension.swift */; };
+		6A7165252689AD5F000038E5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7165242689AD5F000038E5 /* SearchViewController.swift */; };
+		6A7165292689B1FD000038E5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7165282689B1FD000038E5 /* CustomTextField.swift */; };
+		6A71652D2689DEF7000038E5 /* SearchFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71652C2689DEF7000038E5 /* SearchFilterViewController.swift */; };
 		AF8D08572687014F00C7D1EA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D08562687014F00C7D1EA /* CustomButton.swift */; };
 		AF8D085B2687021800C7D1EA /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D085A2687021800C7D1EA /* UIColor+Extension.swift */; };
 		AFF4A86F26863D1C0018111B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A86E26863D1C0018111B /* AppDelegate.swift */; };
@@ -23,6 +27,10 @@
 
 /* Begin PBXFileReference section */
 		6A37067F2686EEED00B494B2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6A6864F9268A1702002CAAF4 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		6A7165242689AD5F000038E5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		6A7165282689B1FD000038E5 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		6A71652C2689DEF7000038E5 /* SearchFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterViewController.swift; sourceTree = "<group>"; };
 		AF8D08562687014F00C7D1EA /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		AF8D085A2687021800C7D1EA /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		AFF4A86B26863D1C0018111B /* Foursquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foursquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,9 +91,13 @@
 				AFF4A87226863D1C0018111B /* ViewController.swift */,
 				6A37067F2686EEED00B494B2 /* LoginViewController.swift */,
 				AFF4A87426863D1C0018111B /* Main.storyboard */,
+				6A6864F9268A1702002CAAF4 /* UIViewController+Extension.swift */,
+				6A71652C2689DEF7000038E5 /* SearchFilterViewController.swift */,
+				6A7165242689AD5F000038E5 /* SearchViewController.swift */,
 				AFF4A87726863D1E0018111B /* Assets.xcassets */,
 				AFF4A87926863D1E0018111B /* LaunchScreen.storyboard */,
 				AFF4A87C26863D1E0018111B /* Info.plist */,
+				6A7165282689B1FD000038E5 /* CustomTextField.swift */,
 				AFF4A88426863F6A0018111B /* HomePageViewController.swift */,
 				AFF4A887268641430018111B /* ForgotPasswordViewController.swift */,
 			);
@@ -171,8 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A7165292689B1FD000038E5 /* CustomTextField.swift in Sources */,
+				6A6864FA268A1702002CAAF4 /* UIViewController+Extension.swift in Sources */,
 				6A3706802686EEED00B494B2 /* LoginViewController.swift in Sources */,
+				6A7165252689AD5F000038E5 /* SearchViewController.swift in Sources */,
 				AFF4A88526863F6A0018111B /* HomePageViewController.swift in Sources */,
+				6A71652D2689DEF7000038E5 /* SearchFilterViewController.swift in Sources */,
 				AFF4A888268641430018111B /* ForgotPasswordViewController.swift in Sources */,
 				AF8D085B2687021800C7D1EA /* UIColor+Extension.swift in Sources */,
 				AFF4A87326863D1C0018111B /* ViewController.swift in Sources */,
