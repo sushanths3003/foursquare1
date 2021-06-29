@@ -22,7 +22,7 @@
 		6A7165252689AD5F000038E5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7165242689AD5F000038E5 /* SearchViewController.swift */; };
 		6A7165292689B1FD000038E5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7165282689B1FD000038E5 /* CustomTextField.swift */; };
 		6A71652D2689DEF7000038E5 /* SearchFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71652C2689DEF7000038E5 /* SearchFilterViewController.swift */; };
- 9fa449d12f4c339366f21cb44ea7fc497f6531c4
+
 		AF8D08572687014F00C7D1EA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D08562687014F00C7D1EA /* CustomButton.swift */; };
 		AF8D085B2687021800C7D1EA /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D085A2687021800C7D1EA /* UIColor+Extension.swift */; };
 		AFF4A86F26863D1C0018111B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A86E26863D1C0018111B /* AppDelegate.swift */; };
@@ -51,7 +51,7 @@
 		6A7165242689AD5F000038E5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		6A7165282689B1FD000038E5 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		6A71652C2689DEF7000038E5 /* SearchFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterViewController.swift; sourceTree = "<group>"; };
-9fa449d12f4c339366f21cb44ea7fc497f6531c4
+
 		AF8D08562687014F00C7D1EA /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		AF8D085A2687021800C7D1EA /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		AFF4A86B26863D1C0018111B /* Foursquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foursquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,7 +134,7 @@
 
 				6A7165282689B1FD000038E5 /* CustomTextField.swift */,
 				AFF4A88426863F6A0018111B /* HomePageViewController.swift */,
- 9fa449d12f4c339366f21cb44ea7fc497f6531c4
+ 
 				AFF4A887268641430018111B /* ForgotPasswordViewController.swift */,
 				AF6D2418268A1BBB00103807 /* Constants.swift */,
 			);
@@ -228,7 +228,7 @@
 				6A7165252689AD5F000038E5 /* SearchViewController.swift in Sources */,
 				AFF4A88526863F6A0018111B /* HomePageViewController.swift in Sources */,
 				6A71652D2689DEF7000038E5 /* SearchFilterViewController.swift in Sources */,
- 9fa449d12f4c339366f21cb44ea7fc497f6531c4
+ 
 				AFF4A888268641430018111B /* ForgotPasswordViewController.swift in Sources */,
 				AF8D085B2687021800C7D1EA /* UIColor+Extension.swift in Sources */,
 				AF86E3872689913400FFE450 /* HomePageCollectionViewController.swift in Sources */,
