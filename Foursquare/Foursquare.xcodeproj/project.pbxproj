@@ -6,34 +6,7 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		6A3706802686EEED00B494B2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A37067F2686EEED00B494B2 /* LoginViewController.swift */; };
 
-		AF6D2419268A1BBB00103807 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6D2418268A1BBB00103807 /* Constants.swift */; };
-		AF6D241C268A328C00103807 /* CustomButtonForCollectionViewOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6D241B268A328C00103807 /* CustomButtonForCollectionViewOptions.swift */; };
-		AF6D241F268A3C3800103807 /* NearYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6D241E268A3C3800103807 /* NearYouViewController.swift */; };
-		AF6D2422268A3C4900103807 /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6D2421268A3C4900103807 /* PopularViewController.swift */; };
-		AF6D2425268A4B7300103807 /* NearYouTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6D2424268A4B7300103807 /* NearYouTableViewCell.swift */; };
-		AF86E3842689911500FFE450 /* HomePageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86E3832689911500FFE450 /* HomePageCollectionViewCell.swift */; };
-		AF86E3872689913400FFE450 /* HomePageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86E3862689913400FFE450 /* HomePageCollectionViewController.swift */; };
-		AF86E38B2689973700FFE450 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86E38A2689973700FFE450 /* HomePageViewController.swift */; };
-
-		6A6864FA268A1702002CAAF4 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6864F9268A1702002CAAF4 /* UIViewController+Extension.swift */; };
-		6A7165252689AD5F000038E5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7165242689AD5F000038E5 /* SearchViewController.swift */; };
-		6A7165292689B1FD000038E5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7165282689B1FD000038E5 /* CustomTextField.swift */; };
-		6A71652D2689DEF7000038E5 /* SearchFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71652C2689DEF7000038E5 /* SearchFilterViewController.swift */; };
-
-		AF8D08572687014F00C7D1EA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D08562687014F00C7D1EA /* CustomButton.swift */; };
-		AF8D085B2687021800C7D1EA /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D085A2687021800C7D1EA /* UIColor+Extension.swift */; };
-		AFF4A86F26863D1C0018111B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A86E26863D1C0018111B /* AppDelegate.swift */; };
-		AFF4A87126863D1C0018111B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A87026863D1C0018111B /* SceneDelegate.swift */; };
-		AFF4A87326863D1C0018111B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A87226863D1C0018111B /* ViewController.swift */; };
-		AFF4A87626863D1C0018111B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF4A87426863D1C0018111B /* Main.storyboard */; };
-		AFF4A87826863D1E0018111B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF4A87726863D1E0018111B /* Assets.xcassets */; };
-		AFF4A87B26863D1E0018111B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF4A87926863D1E0018111B /* LaunchScreen.storyboard */; };
-		AFF4A888268641430018111B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A887268641430018111B /* ForgotPasswordViewController.swift */; };
-		AFF4A890268643AA0018111B /* CustomBackgroundForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4A88F268643AA0018111B /* CustomBackgroundForView.swift */; };
-/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A37067F2686EEED00B494B2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
