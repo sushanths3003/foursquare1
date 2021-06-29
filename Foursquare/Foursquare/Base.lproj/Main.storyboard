@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
+
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tU8-ZG-TQ6">
-=======
-<<<<<<< HEAD
+
+
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6VS-Kf-S1a">
-=======
+
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GUx-1a-xJ3">
->>>>>>> 00ee36c981005e7c239bec22b373a64257299ac9
->>>>>>> 9fa449d12f4c339366f21cb44ea7fc497f6531c4
+ 00ee36c981005e7c239bec22b373a64257299ac9
+ 9fa449d12f4c339366f21cb44ea7fc497f6531c4
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
@@ -2362,7 +2362,7 @@
         <segue reference="WED-UY-vDt"/>
     </inferredMetricsTieBreakers>
     <resources>
-<<<<<<< HEAD
+
         <image name="facebook" width="230" height="65"/>
         <image name="filter1" width="30" height="25"/>
         <image name="google" width="230" height="65"/>
@@ -2388,7 +2388,7 @@
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-=======
+
         <image name="filter" width="18" height="18"/>
         <image name="logoImage" width="291" height="40.5"/>
         <image name="menu" width="18" height="18"/>
@@ -2396,15 +2396,15 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-<<<<<<< HEAD
+
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-=======
->>>>>>> 00ee36c981005e7c239bec22b373a64257299ac9
->>>>>>> 9fa449d12f4c339366f21cb44ea7fc497f6531c4
+
+ 00ee36c981005e7c239bec22b373a64257299ac9
+9fa449d12f4c339366f21cb44ea7fc497f6531c4
     </resources>
 </document>
