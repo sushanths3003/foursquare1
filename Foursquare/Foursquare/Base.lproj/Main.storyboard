@@ -1443,7 +1443,7 @@
                                             <constraint firstAttribute="height" constant="29" id="FVT-lq-5n4"/>
                                             <constraint firstAttribute="width" constant="34" id="k6L-lK-iWh"/>
                                         </constraints>
-                                        <state key="normal" image="filter"/>
+                                        
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MC2-Dn-U0c">
                                         <rect key="frame" x="326" y="15" width="34" height="29"/>
