@@ -131,11 +131,10 @@
 				AFF4A87726863D1E0018111B /* Assets.xcassets */,
 				AFF4A87926863D1E0018111B /* LaunchScreen.storyboard */,
 				AFF4A87C26863D1E0018111B /* Info.plist */,
-<<<<<<< HEAD
-=======
+
 				6A7165282689B1FD000038E5 /* CustomTextField.swift */,
 				AFF4A88426863F6A0018111B /* HomePageViewController.swift */,
->>>>>>> 9fa449d12f4c339366f21cb44ea7fc497f6531c4
+ 9fa449d12f4c339366f21cb44ea7fc497f6531c4
 				AFF4A887268641430018111B /* ForgotPasswordViewController.swift */,
 				AF6D2418268A1BBB00103807 /* Constants.swift */,
 			);
